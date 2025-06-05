@@ -33,9 +33,9 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 # ====== 全局可配置参数（可直接在此处修改） ======
 USER_NAME = "lima"         # 用户名
 UUID = "45382491-e63d-4ddb-94f9-033138be4ad8"                     # UUID，留空则自动生成
-PORT = 3389                  # Vmess端口，留空或0则自动生成
-DOMAIN = "agsb.unix86.ggff.net"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiZTk5ZGRlNmY1ODY5NWJhZTBhOWNiMWIzMWJjZDg3ZjEiLCJ0IjoiNTY4ODc1NzUtYWU3Mi00MmI2LThjZWMtYTU2MjhiN2FmYTI0IiwicyI6Ik1qbGtNVFUwTlRBdE5XSTJZaTAwWlRCaUxUa3laVFl0TTJOa1ptVTFZekJsWmpoaiJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+PORT = 53389                  # Vmess端口，留空或0则自动生成
+DOMAIN = "ags.unix86.ggff.net"                   # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiZTk5ZGRlNmY1ODY5NWJhZTBhOWNiMWIzMWJjZDg3ZjEiLCJ0IjoiOGNmZGRmMWItMGI2Ny00NzY2LWJhYzAtYTM5MjE1ZWEwMzgzIiwicyI6IlkyTTBNalJrTUdZdE5XRmhNQzAwWVdOaExUZzFPV010TkdFeFpESTNPVEprTkRReiJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
